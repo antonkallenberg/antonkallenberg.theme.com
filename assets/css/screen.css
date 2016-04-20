@@ -86,7 +86,7 @@ article.preview,
 a.archive-link,
 .article-nav {
   margin: 20px auto;
-  max-width: 600px;
+  max-width: 800px;
   width: 90%;
 }
 #site-head img {
@@ -211,13 +211,11 @@ blockquote p {
   font-family: "Open Sans Condensed", "Open Sans", "Helvetica Neue", Helvetica, Arial, "Nimbus L", sans-serif;
   font-size: 20px;
   font-weight: 300;
-  margin-top: 1em;
-  margin-bottom: 1.2em;
   text-transform: uppercase;
 }
 .tags {
   font-size: 16px;
-  margin-bottom: 0.6em;
+  margin-bottom: 0.5em;
 }
 div.authorimage {
   width: 70px;
@@ -249,7 +247,6 @@ h2 {
 }
 section.post-content img {
   display: block;
-  margin: 0 auto;
   max-width: 100%;
 }
 section.preview.archive h2 {
@@ -294,7 +291,7 @@ nav {
   margin-bottom: 2em;
   text-align: center;
   margin: 20px auto 2em auto;
-  max-width: 600px;
+  max-width: 800px;
 }
 nav ul {
   list-style: none;
@@ -524,5 +521,8 @@ table tfoot {
   }
   .page-number {
     display: block;
+  }
+  .nav ul {
+    float: left;
   }
 }
